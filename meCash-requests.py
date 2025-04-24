@@ -1,6 +1,6 @@
 import requests  # Import the requests library for making HTTP requests
 
-# Set the API endpoint URL e.g https://api.mec-cash.com/v1/quotes 
+# Set the API endpoint URL e.g https://api.mec-cash.com/v1/quotes
 url = "https://{{baseURL}}/v1/"
 
 # Set the headers including content type and API key for authorization
@@ -13,7 +13,7 @@ headers = {
 data = {
     "paymentChannel": "",  # Specify the payment channel if required
     "source": {
-        "amount": 1,        # Amount to be transferred
+        "amount": 1,        # Amount to be transferrde
         "country": "",      # Source country code (e.g., "US")
         "currency": ""      # Source currency code (e.g., "USD")
     },

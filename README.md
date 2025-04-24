@@ -12,7 +12,7 @@ Make sure the sandbox environment is running and that you're using the **Devbox 
 
 ## 📄 Files
 
-- **`meCash-request.py`** – The main Python script that sends a request to the Me-Cash API.
+- **`meCash-requests.py`** – The main Python script that sends a request to the Me-Cash API.
 - **`requirements.txt`** – Contains required Python packages (currently only `requests`).
 
 ---
