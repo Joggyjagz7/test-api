@@ -29,7 +29,7 @@ Make sure the sandbox environment is running and that you're using the **Devbox 
    ```
 3. **Run the script**
    ```bash
-   python meCash-request.py
+   python meCash-requests.py
    ```
 This will execute the script and send a POST request to the Me-Cash API using the provided headers and body data.
 
